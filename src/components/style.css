@@ -1,0 +1,73 @@
+.site-layout-content {
+    background: #fff;
+    padding: 24px;
+    min-height: 280px;
+}
+
+
+.title-card{
+  font-size: 20px;
+  color: #141414;
+  font-weight: 600;
+}
+
+
+
+.text-card{
+  font-size: 14px;
+  color: grey;
+  font-weight: 500;
+  padding-top: 6px;
+}
+
+
+.icon-card{
+  padding-right: 8px;
+  font-size: 17px;
+}
+
+.imgPeca{
+  max-width:300px;
+  max-height:300px;
+  width: auto;
+  height: auto;
+}
+
+.page-top {
+    width: 700px;
+    height: 60px;
+    margin: 10 10 10 10px;
+    color: white;
+  }
+
+.description{
+  font-size: 18px;
+  font-weight: 500;
+  flex: auto;
+}
+
+.ant-carousel .slick-slide {
+  max-height: 300px;
+  line-height: 200px;
+  background: white;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+  [data-theme="dark"] .site-layout-content {
+    background: #141414;
+  }
+  [data-theme="dark"] .logo {
+    background: rgba(255,255,255,0.3);
+  }
