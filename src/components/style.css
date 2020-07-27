@@ -1,32 +1,35 @@
 .site-layout-content {
-    background: #fff;
-    padding: 24px;
-    min-height: 280px;
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
 }
 
-
-.title-card{
-  font-size: 20px;
-  color: #141414;
+.title-card {
+  font-size: 18px;
+  color:#003a8c;
   font-weight: 600;
 }
 
+.title {
+  font-weight: 600;
+  text-align: center;
+  color: #1E90FF;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-
-.text-card{
+.text-card {
   font-size: 14px;
-  color: grey;
+  color: #434343;
   font-weight: 500;
   padding-top: 6px;
+  padding-left: 10px;
 }
 
-
-.icon-card{
-  padding-right: 8px;
-  font-size: 17px;
+.icon-card {
+  padding-right: 10px;
 }
 
-.imgPeca{
+.imgPeca {
   max-width:300px;
   max-height:300px;
   width: auto;
@@ -34,40 +37,14 @@
 }
 
 .page-top {
-    width: 700px;
-    height: 60px;
-    margin: 10 10 10 10px;
-    color: white;
-  }
-
-.description{
-  font-size: 18px;
-  font-weight: 500;
-  flex: auto;
+  width: 700px;
+  height: 60px;
+  margin: 10 10 10 10px;
+  color: white;
 }
-
-.ant-carousel .slick-slide {
-  max-height: 300px;
-  line-height: 200px;
-  background: white;
-  overflow: hidden;
+[data-theme="dark"] .site-layout-content {
+  background: #141414;
 }
-
-.ant-carousel .slick-slide {
-  text-align: center;
-  height: 160px;
-  line-height: 160px;
-  background: #364d79;
-  overflow: hidden;
+[data-theme="dark"] .logo {
+  background: rgba(255,255,255,0.3);
 }
-
-.ant-carousel .slick-slide h3 {
-  color: #fff;
-}
-
-  [data-theme="dark"] .site-layout-content {
-    background: #141414;
-  }
-  [data-theme="dark"] .logo {
-    background: rgba(255,255,255,0.3);
-  }
